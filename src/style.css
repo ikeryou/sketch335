@@ -75,11 +75,21 @@ html, body {
   color: inherit;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:768px) {
   .l-info {
     margin: 10px;
   }
   .l-info a {
     font-size: 5px;
+  }
+
+  .l-text > .ttl {
+    font-size: 12vw;
+    margin-bottom: 3vw;
+  }
+
+  .l-text > .text {
+    font-size: 4vw;
+    margin-bottom: 13vw;
   }
 }
